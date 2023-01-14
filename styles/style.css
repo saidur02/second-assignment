@@ -46,6 +46,7 @@
     text-align: center;
     background-color: #FF900E;
     margin: 30px;
+    color: #FFFFFF;
 }
 .banner-img{
     width: 100%;
@@ -61,19 +62,19 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.Features{
+.quick-list{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-left: 50px;
 }
-.Feature-img{
+.quick-list-img{
     margin: 10px;
    
 }
-.features-text{
+.quick-list-text{
     align-items: center;
 }
-.feature-text-title{
+.quick-list-text-title{
     font-size: 45px;
     font-weight: 700;
     margin-top: 180PX;
@@ -87,12 +88,79 @@
 .title-modify-2{
     color: #FF900E;
 }
-.feature-text-description{
+.quick-list-text-description{
     font-size: 16px;
     font-weight: 400;
     margin-left: 30PX;
     padding: 10PX;
 }
-.feature-btn{
+.quick-list-btn{
     margin-left: 40px;
+}
+/* features  */
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+}
+.section-header{
+   margin-left: 30px;
+}
+.section-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 5px solid #FF900E;
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.feature-items{
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.item-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+   
+}
+.item-detail{
+    font-size: 16px;
+    font-weight: 400;
+}
+.section-img{
+    
+    height: 500px;
+}
+.feature-btn{
+    width: 340px;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #FF900E;
+    margin: 30px;
+    color: #FFFFFF;
+}
+.feature-btn .small{
+    font-size: 24px;
+    font-weight: 500;
+}
+/* fact  */
+.info{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    margin-left: 20px;
+    
 }
