@@ -1,4 +1,10 @@
+/*****************
+      Font 
+ *****************/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/*****************
+ Common Style 
+ *****************/
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +12,9 @@
 }
 
 
-/* nav style */
+/*****************
+    nav style 
+******************/
 .header-title h3{
     font-size:45px ;
     font-weight:700 ;
@@ -30,7 +38,9 @@
    font-size: 18px;
    font-weight: 500;
 }
-/* banner section */
+/********************
+    banner section
+ ********************/
 
 .banner-section{
     background: rgba(255, 144, 14, 0.1);
@@ -68,7 +78,13 @@
     padding-right: 50px;
     display: flex;
 }
-/* main section  */
+
+/********************
+    main section
+ ********************/
+/********************
+    quick-section 
+ ********************/
 
 .quick-section{
     margin-left: 30px;
@@ -109,7 +125,9 @@
 .quick-list-btn{
     margin-left: 40px;
 }
-/* features  */
+/**********************
+    features section 
+**********************/
 .features{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -176,7 +194,9 @@
     font-size: 24px;
     font-weight: 500;
 }
-/* fact  */
+/******************
+    fact section
+ ******************/
 .fact-header{
     margin-left: 30px;
     padding: 20px;
@@ -210,8 +230,9 @@
     background-color: #727272;
     rotate: 360deg;
    }
-/* sponspors 
- */
+/*******************
+   sponspors section
+ *******************/
 .sponspors .title{
     font-size: 40px;
     font-weight: 700;
@@ -235,6 +256,9 @@
 .sponspors-company img{
     filter: grayscale(100%);
 }
+/***************************
+      Feedback Section 
+ ***************************/
 .feedback h2{
     padding: 20px;
     color: aqua;
@@ -253,8 +277,9 @@ input,textarea{
     background-color: #FF900E;
     border: 0px;
 }
-/* footer 
- */
+/**************
+     footer  
+ **************/
  footer{
     margin-top: 150px;
  }
