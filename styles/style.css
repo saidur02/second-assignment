@@ -61,7 +61,6 @@
     color: #FFFFFF;
 }
 .banner-img{
-    position: absolute;
     width: 100%;
     height: 600px;
     border-radius: 10px;
@@ -70,14 +69,10 @@
     display: flex;
 }
 /* main section  */
-.container{
-    
-  
-}
+
 .quick-section{
-    position: relative;
-    margin-top: 560px;
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -90,9 +85,7 @@
     margin: 10px;
    
 }
-.quick-list-text{
-    align-items: center;
-}
+
 .quick-list-text-title{
     font-size: 45px;
     font-weight: 700;
@@ -170,7 +163,7 @@
     height: 200px;
     border: none;
     border-radius: 5px;
-    font-size: 65px;
+    font-size: 50px;
     font-weight: 700;
     text-align: center;
     background-color: #FF900E;
@@ -204,11 +197,7 @@
     align-items: center;
     padding: 40px;
     margin-left: 50px;
-    justify-content: space-between;
-   
-    
-    
-    
+    justify-content: space-between;  
 }
 .fact-detail{
     border: 1px solid #FF900E;
@@ -237,9 +226,14 @@
     justify-content: space-evenly;
     margin-bottom: 30px;
 }
-
+.sponspors-company img{
+    filter: grayscale(100%);
+}
 /* footer 
  */
+ footer{
+    margin-top: 150px;
+ }
  footer p{
     text-align: center;
     background-color: #FFF4E7;;
@@ -248,3 +242,71 @@
      padding: 30px;
     border-radius: 10px;
  }
+ /* Responsibe Style  */
+
+ @media only screen and (max-width:576px){
+   .nav-section ul{
+    display: inline-block;
+   }
+   .banner-img{
+    width: 100%;
+    height: 100%;
+   }
+   .quick-section{
+    grid-template-columns: 1fr;
+   }
+   .quick-list{
+    grid-template-columns: repeat(1, 1fr);
+    
+ }
+ .quick-list-img{
+    margin: 0px;
+    width: 100%;
+}
+.features{
+    grid-template-columns: 1fr;
+}
+.section-title{
+    font-size: 35px;
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    width: 390px;
+    height: 75px;
+}
+.feature-items{
+    width: 320px;
+    height: 170px;
+   
+}
+.section-img{
+    width: 100%;
+    margin-bottom: 400px;
+}
+.feature-btn{
+    width: 245px;
+    height: 160px;
+    font-size: 35px;
+    top: 100px;
+    left: 30px;
+    margin-bottom: 100px;
+}
+.fact{
+    top: 400px;
+}
+.info{
+    flex-direction: column;
+    gap: 10px;
+   align-items: center;
+}
+.company{
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 0px;
+}
+footer{
+   margin-top: 10px;
+}
+}
