@@ -4,10 +4,18 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
+
 /* nav style */
+.header-title h3{
+    font-size:45px ;
+    font-weight:700 ;
+    padding: 15px;
+}
 .nav-section{
     display: flex;
     justify-content: space-between;
+    align-items: center;
    
 }
 
@@ -18,17 +26,21 @@
 }
 .menu-item ul li{
     justify-content: space-between;
-    margin: 20px;
+   padding: 15px;
+   font-size: 18px;
+   font-weight: 500;
 }
 /* banner section */
+
 .banner-section{
     background: rgba(255, 144, 14, 0.1);
     text-align: center;
 }
-
 .banner-title{
     font-size: 64px;
     font-weight: 700;
+    padding-top: 50px;
+    
 }
 .banner-description{
     font-size: 16px;
@@ -49,6 +61,7 @@
     color: #FFFFFF;
 }
 .banner-img{
+    position: absolute;
     width: 100%;
     height: 600px;
     border-radius: 10px;
@@ -58,11 +71,13 @@
 }
 /* main section  */
 .container{
-    display: flex;
-   justify-content: center;
+    
+  
 }
 .quick-section{
-    margin-top: 80px;
+    position: relative;
+    margin-top: 560px;
+    margin-left: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -107,28 +122,33 @@
     grid-template-columns: repeat(2, 1fr);
     margin-top: 100px;
 }
+
 .section-header{
    margin-left: 30px;
 }
 .section-title{
     font-size: 45px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     padding-left: 10px;
     border-left: 5px solid #FF900E;
 }
 .section-description{
     font-size: 16px;
     font-weight: 400;
+    width: 580px;
+    height: 75px;
 }
 .feature-items{
-    padding: 30px;
+    width: 560px;
+    height: 170px;
+    padding-left: 10px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
-    margin-left: 15px;
-    margin-top: 10px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-top: 26px;
+   
 }
 .item-title{
     font-size: 20px;
@@ -145,6 +165,7 @@
     height: 500px;
 }
 .feature-btn{
+    position: relative;
     width: 340px;
     height: 200px;
     border: none;
@@ -155,6 +176,8 @@
     background-color: #FF900E;
     margin: 30px;
     color: #FFFFFF;
+    top: -77px;
+    left: 550px;
 }
 .feature-btn .small{
     font-size: 24px;
@@ -168,20 +191,32 @@
 .fact-title{
     font-size: 45px;
     font-weight: 700;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    
 }
 .title-detail{
     font-size: 16px;
     font-weight: 400;
 }
 .info{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    margin-left: 50px;
+    justify-content: space-between;
+   
+    
+    
     
 }
 .fact-detail{
-   
+    border: 1px solid #FF900E;
+    padding: 30px;
+    text-align: center;
 }
-/* sponspors  */
+/* sponspors 
+ */
 .sponspors .title{
     font-size: 40px;
     font-weight: 700;
@@ -192,13 +227,17 @@
     margin: 20px;
     font-size: 16px;
     font-weight: 400;
+    color: #727272;
+    text-align: center;
 }
 .company{
     margin: 30px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-content: space-evenly;
+    margin-bottom: 30px;
 }
+
 /* footer 
  */
  footer p{
